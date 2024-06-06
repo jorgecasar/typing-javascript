@@ -1,0 +1,24 @@
+{
+	"name": "typing-javascript",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint ./src/",
+		"oxlint": "npx oxlint@latest ./src"
+	},
+	"author": "",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^7.3.1",
+		"@typescript-eslint/parser": "^7.5.0",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-jsdoc": "^48.2.3",
+		"eslint-plugin-no-secrets": "^0.8.9",
+		"eslint-plugin-sonarjs": "^0.25.1",
+		"eslint-plugin-woke": "^1.0.1",
+		"oxlint": "^0.3.5",
+		"typescript": "^5.4.3",
+		"typescript-eslint": "^7.3.1"
+	}
+}
